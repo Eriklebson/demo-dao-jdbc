@@ -12,7 +12,7 @@ import java.util.Map;
 
 import db.DB;
 import db.DbException;
-import modal.dao.SellerDao;
+import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 

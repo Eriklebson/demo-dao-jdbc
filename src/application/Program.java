@@ -4,10 +4,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
-import modal.dao.DaoFactory;
-import modal.dao.SellerDao;
+import model.dao.DaoFactory;
+import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
@@ -48,7 +46,7 @@ public class Program {
 		System.out.println("Update Completed");
 		
 		System.out.println("\n=== TEST 6: Seller Delete ===");
-		System.out.println("Enter id for delete test: ");
+		System.out.print("Enter id for delete test: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Delete Completed");
